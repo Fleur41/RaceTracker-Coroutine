@@ -25,4 +25,5 @@ class RaceParticipantTest {
         initialProgress = 0,
         progressIncrement = 1
     )
+
 }

@@ -65,6 +65,7 @@ android {
 }
 
 dependencies {
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0-RC.2")
     implementation(platform("androidx.compose:compose-bom:2023.09.00"))
     implementation("androidx.activity:activity-compose:1.8.0")
     implementation("androidx.compose.material:material-icons-extended")
